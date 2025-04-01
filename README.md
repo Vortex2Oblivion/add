@@ -1,5 +1,7 @@
 # Add
 
+![Add](logo.png)
+
 An easy-to-use library for calculating the sum of two numbers!
 
 ```hx
