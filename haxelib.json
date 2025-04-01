@@ -10,7 +10,7 @@
     ],
     "description": "A simple and easy-to-use library to calculate the sum of two numbers",
     "version": "1.0.0",
-    "releasenote": "",
+    "releasenote": "First version of add!",
     "contributors": [
       "Vortex"
     ]
