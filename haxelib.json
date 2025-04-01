@@ -1,0 +1,17 @@
+{
+    "name": "add",
+    "url": "https://github.com/Vortex2Oblivion/add",
+    "license": "MIT",
+    "tags": [
+      "add",
+      "math",
+      "addition",
+      "checkthedate"   
+    ],
+    "description": "A simple and easy-to-use library to calculate the sum of two numbers",
+    "version": "1.0.0",
+    "releasenote": "",
+    "contributors": [
+      "Vortex"
+    ]
+  }
