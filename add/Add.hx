@@ -1,5 +1,7 @@
 package add;
 
+import haxe.Rest;
+
 class Add {
 	/**
 	 * Calculates the sum of two numbers
@@ -7,7 +9,18 @@ class Add {
 	 * @param y 
 	 * @return The sum of `x` and `y`
 	 */
-	public static function add(x:Int, y:Int):Int {
+
+	public static function add(x:Int, y:Rest<Int>):Int {
+		var i:Int = 0;
+		var ret:Int = x;
+		while (i < y.length) {
+			ret = _add(ret, y[i]);
+			i++;
+		}
+		return ret;
+	}
+
+	private static function _add(x:Int, y:Int):Int {
 		var a:Int;
 		var b:Int;
 		do {

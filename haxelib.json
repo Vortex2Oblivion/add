@@ -8,9 +8,9 @@
       "addition",
       "checkthedate"   
     ],
-    "description": "A simple and easy-to-use library to calculate the sum of two numbers",
-    "version": "1.0.0",
-    "releasenote": "First version of add!",
+    "description": "A simple and easy-to-use library to calculate the sum of two (or more) numbers",
+    "version": "2.0.0",
+    "releasenote": "The infinite update.",
     "contributors": [
       "Vortex"
     ]
